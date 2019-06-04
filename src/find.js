@@ -6,9 +6,4 @@ function find(array, callback) {
   }
 }
 
-const numbers = [1, -3, -5];
-console.log(numbers);
-const result = find(numbers, number => number < 0);
-console.log(result);
-
 export default find;

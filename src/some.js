@@ -7,9 +7,4 @@ function some(array, callback) {
   return false;
 }
 
-const numbers = [1, 2, 3];
-console.log(numbers);
-const evens = some(numbers, number => number % 2 === 0);
-console.log(evens);
-
 export default some;

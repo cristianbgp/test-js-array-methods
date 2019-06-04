@@ -7,9 +7,4 @@ function every(array, callback) {
   return true;
 }
 
-const numbers = [1, 2, 3];
-console.log(numbers);
-const evens = every(numbers, number => number % 2 === 0);
-console.log(evens);
-
 export default every;
